@@ -28,7 +28,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/lisErrror"
+                android:id="@+id/lisError"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="An error occured while loading data"
