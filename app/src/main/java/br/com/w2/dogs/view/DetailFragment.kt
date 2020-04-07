@@ -8,11 +8,10 @@ import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.telephony.SmsManager
 import android.view.*
-import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import androidx.navigation.Navigation
 import androidx.palette.graphics.Palette
 import br.com.w2.dogs.R
 import br.com.w2.dogs.databinding.FragmentDetailBinding
@@ -20,13 +19,10 @@ import br.com.w2.dogs.databinding.SendSmsDialogBinding
 import br.com.w2.dogs.model.DogBreed
 import br.com.w2.dogs.model.DogPalette
 import br.com.w2.dogs.model.SmsInfo
-import br.com.w2.dogs.util.getProgressDrawable
-import br.com.w2.dogs.util.loadImage
 import br.com.w2.dogs.viewmodel.DetailViewModel
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
-import kotlinx.android.synthetic.main.fragment_detail.*
 
 class DetailFragment : Fragment() {
 
